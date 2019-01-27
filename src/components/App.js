@@ -3,13 +3,12 @@ import Header from './Header';
 import Order from './Order';
 import Inventory from './Inventory';
 
-
 class App extends React.Component {
     render() {
         return (
             <div className="catch-of-the-day">
                 <div>
-                    <Header />
+                    <Header tagline="Fresh seafood market"/>
                 </div>
                 <Inventory />
                 <Order />
