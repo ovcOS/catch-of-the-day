@@ -1,5 +1,4 @@
 import React from 'react';
-import { throws } from 'assert';
 
 class AddFishForm extends React.Component {
   nameRef = React.createRef();
